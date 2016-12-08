@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PICircularProgressView.h"
 @interface customcellCell : UITableViewCell
 @property (nonatomic, retain) IBOutlet UILabel *nameLabel;
 @property (nonatomic, retain) IBOutlet UIButton * down;
 @property (nonatomic, retain) IBOutlet UIButton * share;
 @property (nonatomic, retain) IBOutlet UIButton * play;
 @property (nonatomic, retain) IBOutlet UIImageView * img;
+@property (nonatomic, retain) IBOutlet PICircularProgressView * v;
 
 @end
